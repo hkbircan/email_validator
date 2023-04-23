@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email_Validator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+
+    <div class="generator container mt-5 p-3 bg-dark-subtle text-light ">
+
+        <div class="display-5 text-center text-body">Email Validator</div>
+
+        <div class="input-group mb-3 gap-1">
+            <input type="text" class="form-control email" placeholder="Please enter your Email" maxlength="50" >
+            <button type="button" class="btn btn-success border-dark-subtle checkBtn">Check</button>
+        </div>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control result" disabled placeholder="Validating.." value="">
+        </div>
+        
+    </div>
+
+    <script src="./app.js"></script>
+
+    
+</body>
+</html>
